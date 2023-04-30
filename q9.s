@@ -41,6 +41,7 @@ main:
     cmp     $0, %rdx        # compare the remainder with 0
     je      .not_prime      # if the remainder is 0, then the number is not prime
     addq    $1, %rbx        # add 1 to the divisor
+    jmp     .loop           # jump back to the loop
 
 .prime:
     leaq    .YES_MSG(%rip), %rdi    # load the address of the yes message into rdi which is the first argument of printf
