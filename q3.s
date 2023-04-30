@@ -10,10 +10,10 @@ by X.
 .section .rodata
 
 .INP_STR:
-    .string "%d"    # the format string for scanf
+    .string "%Ld"    # the format string for scanf
 
 .OUT_STR:
-    .string "%d\n"  # the format string for printf
+    .string "%Ld\n"  # the format string for printf
 
 .section .text
 

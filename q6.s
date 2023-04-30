@@ -10,7 +10,7 @@ respect to K.
 
 .section .rodata
 .INP_STR:
-    .string "%d %d" # input string for scanf since we are taking two inputs
+    .string "%Ld %Ld" # input string for scanf since we are taking two inputs
 
 .OUT_STR:
     .string "%d\n"  # output string for printf

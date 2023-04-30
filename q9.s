@@ -7,7 +7,7 @@ Given a number N, output if it is prime or not.
 
 .section .rodata
 .INP_STR:
-    .string "%d"
+    .string "%Ld"
 
 .YES_MSG:
     .string "Y\n"

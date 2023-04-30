@@ -8,10 +8,10 @@ rectangle.
 
 .section .rodata
 .INP_STR:
-    .string "%d %d"     # input string since we are taking two inputs
+    .string "%Ld %Ld"     # input string since we are taking two inputs
 
 .OUT_STR:
-    .string "%d %d\n"   # output string since we are printing two outputs
+    .string "%Ld %Ld\n"   # output string since we are printing two outputs
 
 .section    .text 
 .globl  main   

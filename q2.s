@@ -9,7 +9,7 @@ Check if a given 64-bit number contains odd number of 1s in its bit representati
 .section    .rodata
 
 .INP_STR:
-    .string "%d"    # input string
+    .string "%Ld"    # input string
 
 .YES_MSG:
     .string "Y\n"   # output string if the number of 1s is odd

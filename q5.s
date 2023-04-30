@@ -9,7 +9,7 @@ Given a number N ,check if the sum of the factorial of digits is equal to N
 .section .rodata
 
 .INP_STR:
-    .string "%d"    # stores the format string for scanf
+    .string "%Ld"    # stores the format string for scanf
 
 .YES_MSG:
     .string "Y\n"   # stores the format string for printf

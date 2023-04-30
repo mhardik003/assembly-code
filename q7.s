@@ -9,10 +9,10 @@ respect to K.
 .section .rodata
 
 .INP_STR:
-    .string "%d %d %d %d"   # since we are taking 4 inputs
+    .string "%Ld %Ld %Ld %Ld"   # since we are taking 4 inputs
 
 .OUT_STR:
-    .string "%d\n"        # since we are printing 1 output
+    .string "%Ld\n"        # since we are printing 1 output
 
 .section    .text
 

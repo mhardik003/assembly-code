@@ -12,10 +12,10 @@ divide(M/N) and ’4’ for modulus(M%N)
 .section    .rodata
 
 .INP_STR:
-    .string "%d %d %d" # since we are inputting three vairables
+    .string "%Ld %Ld %Ld" # since we are inputting three vairables
 
 .OUT_STR:
-    .string "%d\n"  # since we have to output one variable
+    .string "%Ld\n"  # since we have to output one variable
 
 .section    .text
 
